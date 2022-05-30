@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.headtop {
+   height: 50px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+    width: 70%;
+    margin: auto;
+    
+}
+
+section{
+    width: calc(100% / 3);
+}
+
+
+/*regole di debug inizio*/
+
+.headtop {
+    background-color: aqua;
+
+}
+
+nav{
+    background-color: orange;
+    border: 1px dashed black;
+}
+
+.logo {
+    border: 1px dashed black;
+}
+ 
+.menu {
+    border: 1px dashed black;
+}
+
+.login {
+    border: 1px dashed black;
+}
+
+
+
+/*regole di debug
