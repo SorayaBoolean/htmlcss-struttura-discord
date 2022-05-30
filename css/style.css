@@ -20,8 +20,7 @@ nav {
     justify-content: space-between;
     height: 30px;
     width: 70%;
-    margin: auto;
-    
+    margin: auto; 
 }
 
 .logo{
@@ -42,16 +41,19 @@ padding-right: 5px;
 }
 
 section{
-    width: calc(100% / 3);
+    width: calc(100% /3);
+}
+
+.centralhead{
+    
+    height: 230px;
+    width: 50%;
+    margin: auto;
 }
 
 
 /*regole di debug inizio*/
 
-header{
-    
-
-}
 
 nav{
     background-color: orange;
@@ -68,6 +70,11 @@ nav{
 }
 
 .login {
+    border: 1px dashed black;
+}
+
+.centralhead {
+    background-color: rgb(237, 171, 240);
     border: 1px dashed black;
 }
 
