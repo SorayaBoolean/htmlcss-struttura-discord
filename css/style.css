@@ -52,9 +52,6 @@ section{
     margin: auto;
 }
 
-
-
-
 .section1, .section2, .section3 {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -74,7 +71,9 @@ section{
 }
 
 .section2{
+    flex-direction: row-reverse;
     background-color: grey;
+
 }
 
 
@@ -93,11 +92,50 @@ section{
 }
 
 .green{
-    height: 400px;
+    height: 450px;
     width: 80%;
     border: 1px dashed black;
     margin: auto;
 
+}
+
+footer{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+}
+
+.footertop{
+    flex-direction: row;
+    align-items: stretch;
+    height: 80%;
+    border-bottom:  2px solid grey;
+}
+
+.firstbox, .secondbox {
+    height: 300px ;
+    width: 150px;
+}
+
+.firstbox{
+    height: 300px ;
+    width: 300px;
+}
+
+.footercontainer{
+    display: flex;
+    padding-top: 5px;
+    width: 500px;
+    margin: auto;
+}
+
+
+.footerbasscontainer{
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    font-weight: 70%;
+    padding-top: px;
 }
 
 
@@ -132,6 +170,26 @@ nav{
     background-color: green;
 }
 
+footer {
+    background-color: rgb(39, 39, 39);
+}
 
+.firstbox{
+    background-color: palevioletred;
+    border: 1px dashed black;
+}
 
+.secondbox{
+    background-color: rgb(79, 175, 192);
+    border: 1px dashed #ffff;
+}
+
+.logofinale, .bottomfinale {
+    background-color: pink;
+    border: 1px dashed black;
+}
+
+.footerbasscontainer{
+    background-color: aquamarine;
+}
 /*regole di debug fine
