@@ -10,7 +10,7 @@ header{
 }
 
 .headtop {
-   height: 30px;
+   height: 50px;
    background-color: aqua;
 }
 
@@ -51,6 +51,34 @@ section{
     margin: auto;
 }
 
+section { 
+    display: flex;
+}
+
+.section1{
+    padding-top: 30px;
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+
+    
+}
+
+.blue {
+    background-color: rgb(127, 182, 255);
+    height: 300px;
+    width: 60%;
+    border: 1px dashed black;
+}
+
+.pink{
+    background-color: rgb(255, 190, 246);
+    height: 300px;
+    width: 40%;
+    border: 1px dashed black;
+}
+
+
 
 /*regole di debug inizio*/
 
@@ -80,4 +108,4 @@ nav{
 
 
 
-/*regole di debug
+/*regole di debug fine
