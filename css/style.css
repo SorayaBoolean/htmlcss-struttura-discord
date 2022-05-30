@@ -4,8 +4,14 @@
     box-sizing: border-box;
 }
 
+header{
+ height: 400px;
+ background-color: rgb(12, 12, 151);
+}
+
 .headtop {
-   height: 50px;
+   height: 30px;
+   background-color: aqua;
 }
 
 nav {
@@ -18,6 +24,23 @@ nav {
     
 }
 
+.logo{
+text-align: left;
+padding-top: 3px;
+padding-left: 5px;
+}
+
+.login{
+text-align: right;
+padding-top: 3px;
+padding-right: 5px;
+}
+
+.menu {
+    text-align: center;
+    padding-top: 3px;
+}
+
 section{
     width: calc(100% / 3);
 }
@@ -25,8 +48,8 @@ section{
 
 /*regole di debug inizio*/
 
-.headtop {
-    background-color: aqua;
+header{
+    
 
 }
 
@@ -37,6 +60,7 @@ nav{
 
 .logo {
     border: 1px dashed black;
+    
 }
  
 .menu {
