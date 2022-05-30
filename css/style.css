@@ -41,6 +41,7 @@ padding-right: 5px;
 }
 
 section{
+    display: flex;
     width: calc(100% /3);
 }
 
@@ -51,18 +52,31 @@ section{
     margin: auto;
 }
 
-section { 
-    display: flex;
-}
 
-.section1{
+
+
+.section1, .section2, .section3 {
     padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;;
+    padding-right: 100px;
     margin: 0 auto;
-    width: 600px;
-    text-align: center;
+    width: 800px;
+    text-align: center; 
+} 
 
-    
+.section4{
+    background-color: grey; 
+    margin: auto;
+    margin: 0 auto;
+    width: 800px;
+    height: 500px;
 }
+
+.section2{
+    background-color: grey;
+}
+
 
 .blue {
     background-color: rgb(127, 182, 255);
@@ -76,6 +90,14 @@ section {
     height: 300px;
     width: 40%;
     border: 1px dashed black;
+}
+
+.green{
+    height: 400px;
+    width: 80%;
+    border: 1px dashed black;
+    margin: auto;
+
 }
 
 
@@ -104,6 +126,10 @@ nav{
 .centralhead {
     background-color: rgb(237, 171, 240);
     border: 1px dashed black;
+}
+
+.green{
+    background-color: green;
 }
 
 
