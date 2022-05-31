@@ -4,41 +4,70 @@
     box-sizing: border-box;
 }
 
+.body {
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+
+/*inizio header */
+
 header{
- height: 400px;
- background-color: rgb(12, 12, 151);
+ height: 580px;
+ background-color: lightblue;
 }
 
 .headtop {
-   height: 50px;
-   background-color: aqua;
+   height: 80px;
+   display: flex;
+   max-width: 600px;
+   margin: auto;
+   align-items: center;
 }
 
-nav {
+header .headtop >div {
+    background-color: gold;
+    padding: 10px;
+}
+
+header .logo-column, header .login-column {
+    width: 20%;
+}
+
+header .menu-column {
+    width: 60%;
+}
+
+header .menu-column ul {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 30px;
-    width: 70%;
-    margin: auto; 
+    list-style: none;
+    justify-content: center;
 }
 
-.logo{
-text-align: left;
-padding-top: 3px;
-padding-left: 5px;
+li {
+    padding: 0px 5px;
 }
 
-.login{
-text-align: right;
-padding-top: 3px;
-padding-right: 5px;
+.login-column{
+    text-align: right;
 }
 
-.menu {
-    text-align: center;
-    padding-top: 3px;
+#jambutron {
+    display: flex;
+    justify-content: center;
+    height: 497px;
+    padding: 50px;
 }
+
+#jambutron .content {
+    height: 100%;
+    background-color: violet;
+    border: 1px dashed black;
+    width: 50%;
+}
+
+/*fine header*/
+
+/* inizio main */
 
 section{
     display: flex;
@@ -143,53 +172,38 @@ footer{
 /*regole di debug inizio*/
 
 
-nav{
-    background-color: orange;
+.debug .logo-column,.menu-column, .login-column {
     border: 1px dashed black;
 }
 
-.logo {
-    border: 1px dashed black;
-    
-}
- 
-.menu {
-    border: 1px dashed black;
+.debug #jambutron {
+    background-color: darkblue;
 }
 
-.login {
-    border: 1px dashed black;
-}
 
-.centralhead {
-    background-color: rgb(237, 171, 240);
-    border: 1px dashed black;
-}
-
-.green{
+.debug .green{
     background-color: green;
 }
-
-footer {
+.debug footer {
     background-color: rgb(39, 39, 39);
 }
 
-.firstbox{
+.debug .firstbox{
     background-color: palevioletred;
     border: 1px dashed black;
 }
 
-.secondbox{
-    background-color: rgb(79, 175, 192);
+.debug .secondbox{
+    background-color: lightseagreen;
     border: 1px dashed #ffff;
 }
 
-.logofinale, .bottomfinale {
+.debug .logofinale, .bottomfinale {
     background-color: pink;
     border: 1px dashed black;
 }
 
-.footerbasscontainer{
+.debug .footerbasscontainer{
     background-color: aquamarine;
 }
 /*regole di debug fine
