@@ -6,7 +6,6 @@
 
 .body {
     font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
 }
 
 /*inizio header */
@@ -26,6 +25,7 @@ header{
 
 header .headtop >div {
     background-color: gold;
+    border: 1px dashed black;
     padding: 10px;
 }
 
@@ -33,11 +33,11 @@ header .logo-column, header .login-column {
     width: 20%;
 }
 
-header .menu-column {
+header .menuu-column {
     width: 60%;
 }
 
-header .menu-column ul {
+header .menuu-column ul {
     display: flex;
     list-style: none;
     justify-content: center;
@@ -79,55 +79,53 @@ display: flex;
     display: flex;
 }
 
-.big col {
-    width: 60%;
-    height: 100%;
+.big-column {
+    width: 800px ;
+    height: 300px ;
 }
 
-.small col {
-
+.small-column {
+    width: 500px;
+    height: 300px;
 }
 
-
-
-.green{
-    height: 450px;
-    width: 80%;
-    border: 1px dashed black;
-    margin: auto;
-
+.column-full {
+    width: 1000px;
+    height: 700px;
 }
+
+ /*inizio footer*/
 
 footer{
-    margin: 0 auto;
-    width: 800px;
-    height: 400px;
+    background-color: #23272a;
 }
 
 .footertop{
-    flex-direction: row;
-    align-items: stretch;
-    height: 80%;
-    border-bottom:  2px solid grey;
-}
-
-.firstbox, .secondbox {
-    height: 300px ;
-    width: 150px;
-}
-
-.firstbox{
-    height: 300px ;
-    width: 300px;
-}
-
-.footercontainer{
     display: flex;
-    padding-top: 5px;
-    width: 500px;
+    width: 1015px ;
     margin: auto;
+    justify-content: center;
+    padding: 10px 20px 0px 0px;
 }
 
+.footertop .main-column {
+    width: 25%;
+}
+
+.menu-column{
+    display: flex;
+}
+
+.footerbottom{
+    width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    background-color: aquamarine;
+    
+}
 
 .footerbasscontainer{
     display: flex;
@@ -137,9 +135,27 @@ footer{
     padding-top: px;
 }
 
+.footertop .main-column {
+    width: 25%;
+}
+
+.footertop .menu-column {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.columnf {
+    width: 25%;
+  
+}
 
 
 /*regole di debug inizio*/
+
+.col {
+    border: 1px dashed black;;
+}
 
 /*debug header*/
 .debug .logo-column,.menu-column, .login-column {
@@ -150,7 +166,7 @@ footer{
     background-color: darkblue;
 }
 
-/*debug main*/
+/* inizio debug main*/
 
 .debug main section {
     height: 400px;
@@ -163,19 +179,42 @@ footer{
     height: 800px;
 }
 
+.debug .big-column {
+    background-color: rgb(111, 177, 252);
+}
 
+.debug .small-column  {
+    background-color: pink;
+}
 
+.debug .column-full {
+    background-color: green;
+}
 
-
-/*inizio footer*/
+/*inizio debug footer*/
 
 .debug .logofinale, .bottomfinale {
     background-color: pink;
     border: 1px dashed black;
 }
 
-.debug .footerbasscontainer{
+.debug .footertop {
+    height: 500px;
+}
+
+.debug .main-column {
+    background-color: salmon;
+}
+
+.debug .menu-column {
+    background-color: rgb(46, 139, 131);
+    border: 1px dasher #ffff;
+}
+
+.footerbottom{
     background-color: aquamarine;
+    margin: 10px 400px ;
+    text-align: center;
 }
 
 /*regole di debug fine
