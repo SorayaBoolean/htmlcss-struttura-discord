@@ -19,7 +19,7 @@ header{
 .headtop {
    height: 80px;
    display: flex;
-   max-width: 600px;
+   max-width: 700px;
    margin: auto;
    align-items: center;
 }
@@ -69,56 +69,26 @@ li {
 
 /* inizio main */
 
-section{
+main .section {
+display: flex;
+}
+
+.section-container {
+    max-width: 700px;
+    margin: auto;
     display: flex;
-    width: calc(100% /3);
 }
 
-.centralhead{
-    
-    height: 230px;
-    width: 50%;
-    margin: auto;
-}
-
-.section1, .section2, .section3 {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 100px;;
-    padding-right: 100px;
-    margin: 0 auto;
-    width: 800px;
-    text-align: center; 
-} 
-
-.section4{
-    background-color: grey; 
-    margin: auto;
-    margin: 0 auto;
-    width: 800px;
-    height: 500px;
-}
-
-.section2{
-    flex-direction: row-reverse;
-    background-color: grey;
-
-}
-
-
-.blue {
-    background-color: rgb(127, 182, 255);
-    height: 300px;
+.big col {
     width: 60%;
-    border: 1px dashed black;
+    height: 100%;
 }
 
-.pink{
-    background-color: rgb(255, 190, 246);
-    height: 300px;
-    width: 40%;
-    border: 1px dashed black;
+.small col {
+
 }
+
+
 
 .green{
     height: 450px;
@@ -171,7 +141,7 @@ footer{
 
 /*regole di debug inizio*/
 
-
+/*debug header*/
 .debug .logo-column,.menu-column, .login-column {
     border: 1px dashed black;
 }
@@ -180,23 +150,24 @@ footer{
     background-color: darkblue;
 }
 
+/*debug main*/
 
-.debug .green{
-    background-color: green;
+.debug main section {
+    height: 400px;
 }
-.debug footer {
-    background-color: rgb(39, 39, 39);
-}
-
-.debug .firstbox{
-    background-color: palevioletred;
-    border: 1px dashed black;
+.grey {
+    background-color: lightgray;
 }
 
-.debug .secondbox{
-    background-color: lightseagreen;
-    border: 1px dashed #ffff;
+.debug main section:last-child {
+    height: 800px;
 }
+
+
+
+
+
+/*inizio footer*/
 
 .debug .logofinale, .bottomfinale {
     background-color: pink;
@@ -206,4 +177,5 @@ footer{
 .debug .footerbasscontainer{
     background-color: aquamarine;
 }
+
 /*regole di debug fine
